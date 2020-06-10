@@ -47,6 +47,9 @@ p {
 #title {
   background-color: #ff4c68;
   color: #fff;
+  height: 53.125rem;
+  position: relative;
+  z-index: -2;
 }
 
 /* Download Button */
@@ -59,11 +62,17 @@ p {
   transform: rotate(25deg);
   width: 60%;
   margin-left: 10%;
+  margin-bottom: 0;
+  position: relative;
+  z-index: -1;
 }
 
 /* Feature Section */
 #features {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 .icon {
