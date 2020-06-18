@@ -47,11 +47,13 @@ p {
 #title {
   background-color: #ff4c68;
   color: #fff;
-  height: 53.125rem;
   position: relative;
-  z-index: -2;
 }
 
+/* @media query {
+  min-width: 414px;
+  orientation: landscape;
+} */
 /* Download Button */
 .download-button {
   margin: 5% 3% 5% 0;
@@ -61,10 +63,8 @@ p {
 .title-image {
   transform: rotate(25deg);
   width: 60%;
-  margin-left: 10%;
-  margin-bottom: 0;
-  position: relative;
-  z-index: -1;
+  position: absolute;
+  right: 30%;
 }
 
 /* Feature Section */
@@ -72,7 +72,6 @@ p {
   padding: 7% 15%;
   background-color: #fff;
   position: relative;
-  z-index: 1;
 }
 
 .icon {
@@ -90,7 +89,7 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 /* Testimonials Section */
@@ -130,4 +129,16 @@ p {
 
 .pricing-col {
   padding: 3% 2%;
+}
+
+/* Media Query */
+@media (max-width: 990px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
