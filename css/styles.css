@@ -50,10 +50,6 @@ p {
   position: relative;
 }
 
-/* @media query {
-  min-width: 414px;
-  orientation: landscape;
-} */
 /* Download Button */
 .download-button {
   margin: 5% 3% 5% 0;
@@ -141,4 +137,30 @@ p {
     position: static;
     transform: rotate(0);
   }
+}
+
+/* Call To Action */
+#cta {
+  background-color: #ff4c68;
+  padding: 8% 10%;
+  text-align: center;
+}
+
+#cta h3 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Footer */
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 5% 10%;
+}
+
+.footer-btn a {
+  text-decoration: none;
+  color: #000;
 }
